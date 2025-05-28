@@ -37,3 +37,9 @@
 	- Sempre que o parâmetro vier entre colchetes, ele é opcional.
 - O hash passado para o `git show` é opcional, e se não houver, ele exibe o HEAD.
 	- O HEAD nada mais é do que o último commit feito na branch local atual.
+
+### 1.4. Próximas Alterações
+- O `git status` mostra qual é a branch atual e se tem alterações para adicionar.
+- O `git diff` mostra a diferença do que foi feito com o que está em HEAD.
+- O `git diff` também permite ver a diferença entre dois commits diferentes.
+	- Basta apenas passar a hash do commit mais antigo e a hash de um posterior.
